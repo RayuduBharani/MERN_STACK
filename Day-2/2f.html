@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Card</title>
+    <style>
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            max-width: 300px;
+            font-family: Arial, sans-serif;
+        }
+        .product-title {
+            color: rgb(0, 113, 133);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .product-price {
+            color: rgb(0, 118, 0);
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .product-availability {
+            color: rgb(0, 118, 0);
+        }
+        .amazon-btn, .buy-now-btn {
+            background-color: rgb(255, 216, 20);
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        .buy-now-btn {
+            background-color: rgb(255, 164, 28);
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <a href="http://amazon.com">Back to Amazon</a>
+        <h2 class="product-title">Nike Black Running Shoes</h2>
+        <p class="product-price">$39 - <span class="product-availability">in stock.</span></p>
+        <p>Free delivery tomorrow.</p>
+        <button class="amazon-btn">Add to Cart</button>
+        <button class="buy-now-btn">Buy now</button>
+    </div>
+</body>
+</html>
