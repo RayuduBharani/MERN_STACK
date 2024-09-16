@@ -1,0 +1,77 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 4h. Pagination */
+.pagination {
+    display: flex;
+    gap: 5px;
+}
+
+.pagination button,
+.pagination a {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+/* 4i. Stretch */
+.stretch {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Stretch to full width of the container */
+}
+
+.stretch:hover {
+    background-color: #45a049;
+}
+
+/* 4j. 3D Click */
+.shadow {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); /* 3D shadow effect */
+}
+
+.shadow:active {
+    box-shadow: none; /* Remove shadow on click */
+    transform: translate(3px, 3px); /* Move button to simulate 3D click */
+}
+
+/* 4k. Margin and padding together */
+.margin-padding {
+    display: flex;
+    gap: 10px;
+}
+
+.margin-padding button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px; /* Margin for spacing */
+}
+
+.margin-padding button:hover {
+    background-color: #45a049;
+}
